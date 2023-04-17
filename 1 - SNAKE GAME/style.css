@@ -1,0 +1,59 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color: #79B791;
+    border-radius: 10px;
+
+}
+.wrapper {
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #51291E;
+
+}
+
+.game-detail {
+    color: #EDF4ED;
+    font-size: 1.6rem;
+    font-weight: 800;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.play-board {
+    width: 100%;
+    height: 100%;
+    background-color: #ABD1B5;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    display: grid;
+
+}
+
+.play-board .comida {
+    background-color: #a80316;
+    
+}
+
+.play-board .cobra {
+    background-color: #0a692f;
+
+}
