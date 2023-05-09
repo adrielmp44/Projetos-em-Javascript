@@ -49,6 +49,8 @@ body{
 }
 
 .play-board .comida {
+    
+    background-image: url(C:\Users\carlos adriel\Documents\JAVASCRIPT CURSO\Projetos-em-Javascript\1 - SNAKE GAME\free-apple-icon-2327-thumb.png) ;
     background-color: #a80316;
     
 }

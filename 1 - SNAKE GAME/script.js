@@ -40,6 +40,7 @@ const changeDirection = (e) => {
 }
 
 const startgame = () => {
+    
     if(gameOver) return handleGameOver();
     let htmlMarkup = `<div class="comida" style="grid-area: ${comidaY} / ${comidaX}"></div>`;
 
